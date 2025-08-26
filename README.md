@@ -6,6 +6,8 @@ It classifies reviews as fake or genuine to enhance trust in product ratings.
 
 
 🚀 Features
+
+
 Detects fake vs genuine reviews
 Uses sentiment analysis and linguistic features
 Optimized feature selection reduces processing time by 30%
@@ -14,6 +16,8 @@ Includes trained models and evaluation results
 
 
 🛠️ Tech Stack
+
+
 Python
 NLTK / spaCy
 Scikit-learn
@@ -22,6 +26,7 @@ Matplotlib
 
 
 📊 Workflow
+
 Data Collection (Amazon/Yelp reviews dataset)
 Text Preprocessing (tokenization, stopword removal, lemmatization)
 Feature Extraction (TF-IDF, BoW, sentiment features)
@@ -31,18 +36,22 @@ Saving trained models and results
 
 
 📈 Results
+
+
 Precision: Improved by 15% compared to baseline models
 Processing Time: Reduced by 30% with optimized feature selection
 Evaluation Metrics: Confusion matrix, accuracy, precision, recall, F1-score available in results/
 
 
 🧠 Models
+
 Logistic Regression (logistic_regression.pkl)
 Decision Tree (decision_tree.pkl)
 Support Vector Machine (svm_model.pkl)
 Saved models are available in the models/ folder for reuse and deployment.
 
 🔮 Future Improvements
+
 Use Deep Learning (BERT, LSTM) for more advanced detection
 Deploy as a web application for real-time analysis
 Expand dataset across multiple domains

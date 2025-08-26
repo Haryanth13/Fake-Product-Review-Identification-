@@ -1,7 +1,9 @@
 🛍️ Fake Product Review Identification
+
 📌 Overview
 This project identifies fake product reviews using Natural Language Processing (NLP) and Machine Learning.
 It classifies reviews as fake or genuine to enhance trust in product ratings.
+
 
 🚀 Features
 Detects fake vs genuine reviews
@@ -9,12 +11,16 @@ Uses sentiment analysis and linguistic features
 Optimized feature selection reduces processing time by 30%
 Improved classification precision by 15%
 Includes trained models and evaluation results
+
+
 🛠️ Tech Stack
 Python
 NLTK / spaCy
 Scikit-learn
 Pandas, NumPy
 Matplotlib
+
+
 📊 Workflow
 Data Collection (Amazon/Yelp reviews dataset)
 Text Preprocessing (tokenization, stopword removal, lemmatization)
@@ -22,10 +28,14 @@ Feature Extraction (TF-IDF, BoW, sentiment features)
 Model Training (Logistic Regression, Decision Tree, SVM)
 Model Evaluation (Accuracy, Precision, Recall, F1-Score)
 Saving trained models and results
+
+
 📈 Results
 Precision: Improved by 15% compared to baseline models
 Processing Time: Reduced by 30% with optimized feature selection
 Evaluation Metrics: Confusion matrix, accuracy, precision, recall, F1-score available in results/
+
+
 🧠 Models
 Logistic Regression (logistic_regression.pkl)
 Decision Tree (decision_tree.pkl)
